@@ -2,10 +2,10 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <nav>
-      Get Ready to complete your Daily Goals
-    </nav>
+    <div>
+      <h1 className='todo-heading'>Todo</h1>
+    </div>
   )
 }
 
-export default Header;
+export default Header
